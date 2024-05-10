@@ -1,0 +1,27 @@
+.fresh{
+    background: var( --body-primary-color);
+    width: 100%;
+}
+
+.fresh > .container{
+    padding: 140px 0;
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(600px, 1fr)) ;
+}
+
+.fresh__box{
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    padding: 151px 0 136px;
+}
+.fresh__box-title{
+    max-width: 374px;
+}
+.fresh__box-txt{
+    max-width: 578px;
+    line-height: 27px;
+}
+.fresh__btn{
+    padding-top: 18px;
+}

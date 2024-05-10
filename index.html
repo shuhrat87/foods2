@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>foods</title>
     <link rel="stylesheet" href="./CSS/main.css">
 </head>
+
 <body>
     <div class="ads">
         <p class="ads__txt">We're open and available for takeaway & delivery.</p>
@@ -13,39 +15,100 @@
     </div>
     <nav class="nav">
         <div class="container">
-           <a href="#!"><img src="./img/header/log1.svg" alt=""></a>
-           <div class="nav__box">
-               <ul class="nav__list">
-                <li class="nav__item">
-                    <a href="#!" class="nav__link">Home</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#!" class="nav__link">Order</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#!" class="nav__link">Company</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#!" class="nav__link">FAQ</a>
-                </li>
-                <li class="nav__item">
-                    <a href="#!" class="nav__link">Contact</a>
-                </li>
-               </ul>
-               <div class="nav__box-korz">
-                <a href="#!" class="nav__box-btn"><img src="./img/header/korz.svg" alt=""></a>
-                <p class="nav__box-txt">0</p>
-               </div>
-           </div>
-           
+            <a href="#!"><img src="./img/header/log1.svg" alt=""></a>
+            <div class="nav__box">
+                <div class="nav__burger">
+                    <span class="nav__burger-line"></span>
+                </div>
+                <div class="nav__menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#!" class="nav__link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#!" class="nav__link">Order</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#!" class="nav__link">Company</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#!" class="nav__link">FAQ</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#!" class="nav__link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav__box-korz">
+                    <a href="#!" class="nav__box-btn"><img src="./img/header/korz.svg" alt=""></a>
+                    <p class="nav__box-txt">0</p>
+                </div>
+            </div>
+
         </div>
     </nav>
     <header class="header">
+        <img src="./img/header/BG Shape.png" class="header__img" alt="">
         <div class="container">
             <div class="header__box">
-                
+                <div class="header__box-card">
+                    <h3 class="header__box-title" > 
+                        Beautiful food & takeaway, <span
+                            class="spanbox">delivered</span><br>to your door.
+                    </h3>
+                    <p class="header__box-txt">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500.</p>
+                </div>
+                <div class="header__box-btn">
+                    <a href="#!" class="header__btn btn">Place an Order</a>
+                    <img src="./img/header/trustp.svg" class="btn__box-svg" alt="">
+                    <p class="header__btn-txt text"><span class="spanbox">4.8 out of 5</span> based on 2000+ reviews</p>
+                </div>
+
+            </div>
+            <div class="header__box2">
+                <img src="./img/header/IMAGE.png" alt="">
             </div>
         </div>
     </header>
+    <main>
+        <section class="fresh">
+            <div class="container">
+                <div class="fresh__box">
+                    <h4 class="fresh__box-title title">The home of <br> fresh products</h4>
+                    <p class="fresh__box-txt text">Lorem Ipsum is simply dummy text of the printing and <br> typesetting industry. Lorem Ipsum has been the industry's <br>standard dummy text ever since the 1500.</p>
+                    <a href="#!" class="fresh__btn btn">Learn about us</a>
+                </div>
+                <div class="fresh__box2">
+                    <img src="./img/main/fresh/freshimg.png" alt="">
+                </div>
+            </div>
+        </section>
+        
+        <section class="works">
+            <h4 class="works__title title">How it works.</h4>
+            <div class="container">
+                <div class="works__cards">
+                    <div class="works__card">
+                        <img src="./img/main/works/IMAGE1.png"  class="works__img">
+                        <p class="works__subtitle">Adapt your menu items</p>
+                        <p class="works__txt text">Easily adapt your menu using the <br> webflow CMS and allow <br>customers to browse your items.</p>
+                    </div>
+                    <div class="works__card">
+                        <img src="./img/main/works/IMAGE2.png"  class="works__img">
+                        <p class="works__subtitle">Accept online orders & takeout</p>
+                        <p class="works__txt text">Let your customers order and pay <br> via the powerful ecommerce system,<br> or simple let them call your store.</p>
+                    </div>
+                    <div class="works__card">
+                        <img src="./img/main/works/IMAGE3.png"  class="works__img">
+                        <p class="works__subtitle">Manage delivery or takeout</p>
+                        <p class="works__txt text">Manage your own logistics and <br> take orders simply through the <br> ecommerce system.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </body>
+
 </html>

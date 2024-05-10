@@ -1,0 +1,35 @@
+.works{
+    padding: 134px 0 120px;
+}
+
+.works__title{
+    display: flex;
+    justify-content: center;
+}
+
+.works__cards{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(333.33px, 1fr)) ;
+    padding-top: 66px;
+}
+.works__card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+       gap: 15px;
+}
+.works__subtitle{
+    padding-top:33px ;
+    font-size: 20px;
+    color: var(--title-secondary-color);
+}
+
+.works__txt{
+    max-width: 328px;
+    line-height: 27px;
+    text-align: center;
+}
+.works__img{
+    max-width: fit-content;
+}

@@ -1,0 +1,19 @@
+/* colors */
+:root{
+    --primary-color: rgba(53, 184, 190, 1);
+    --body-primary-color:rgba(245, 251, 252, 1);
+    --secondary-color:rgba(53, 184, 190, 1);
+    --title-primary-color:rgba(40, 34, 75, 1);
+    --title-secondary-color:rgba(8, 9, 10, 1);
+    --txt-primary-color:rgba(84, 98, 133, 1);
+    --txt-secondary-color:rgba(0, 0, 0, 1);
+    --btn-primary-color:rgba(255, 255, 255, 1);
+}
+/* colors */
+
+/* fonts */
+:root{
+    --primary-font:"Inter";
+    
+}
+/* fonts */

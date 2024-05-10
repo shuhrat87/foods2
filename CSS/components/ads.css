@@ -1,0 +1,24 @@
+.ads{
+    background:var(--secondary-color) ;
+    padding: 14px 0;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.ads__txt{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 20px;
+    font-weight: 400;
+}
+.ads__btn{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 400;
+    transition: 0.4s;
+}
+
+.ads__btn:hover{
+    color: var(--btn-primary-color);
+    transform: translateY(3px); 
+}

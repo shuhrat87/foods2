@@ -24,19 +24,25 @@ button,input,textarea{
 }
 
 .container {
-    max-width:1230px;
+    max-width: 1230px;
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
 }
 .btn{
-    max-width: 193px;
     font-size: 17px;
     font-weight: 400;
-    color: var(--btn-primary-color);
-    background: var( --primary-color);
+    color: var( --txt-secondary-color);
     padding: 20px 35px;
+    border: 1px solid rgba(221, 221, 221, 1) ;
     border-radius: 6px;
+    max-width: fit-content;
+   transition: 0.4s;
+}
+
+.btn:hover{
+    background: var( --primary-color);
+    color:var(--btn-primary-color);
 }
 
 .title{

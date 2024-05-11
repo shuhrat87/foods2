@@ -1,0 +1,44 @@
+
+.support__box2{
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .support__bgimg{
+      position: absolute;
+      z-index: -1;
+      object-position: center;
+  }
+
+.support > .container{
+    padding: 43px 0;
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(600px, 1fr)) ;
+    gap: 22px;
+}
+
+.support__box3{
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+    width: 100%;
+    padding-left: 60px;
+}
+.support__title{
+    font-size: 50px;
+    line-height: 60px;
+   color: var(--btn-primary-color);
+}
+.supspan{
+    color: rgba(27, 144, 151, 1);
+}
+ .support__btn{
+    display: inline-block;
+    transition: 0.4s;
+ }   
+
+ .support__btn:hover{
+    background: var(--btn-primary-color);
+    color: var(--primary-color);
+ }

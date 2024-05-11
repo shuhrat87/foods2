@@ -1,0 +1,140 @@
+.menu{
+  position: relative;
+}
+
+.menu__imgbg{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    object-position: center;
+}
+.menu > .container{
+    padding: 140px 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.menu__box{
+    display: flex;
+    gap: 26px;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.menu__box-title{
+    letter-spacing:1.65px ;
+}
+
+.menu__box-txt{
+    max-width: 466px;
+    text-align: center;
+    letter-spacing:0.36px;
+    line-height: 22px;
+}
+.box__btn{
+    display: flex;
+    gap: 30px;
+    padding-top: 14px;
+}
+.menu__btn{
+    border: 1px solid #617283 ;
+    padding: 16px 46px;
+    border-radius: 6px;
+    color:#222222 ;
+   font-size: 15px;
+   transition: 0.4s;
+}
+
+.menu__btn:hover{
+    background: var( --primary-color);
+}
+
+.menu__cards{
+    grid-template-columns: repeat(auto-fit,minmax(580px,1fr));
+    display: grid;
+    gap: 20px;
+    width: 100%;
+    padding: 39px 10px 65px;
+}
+
+
+.menu__card{
+    background: #fff;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 27px 27px 26px;
+    border: 1px solid rgba(53, 184, 190, 0.15);
+    border-radius:6px ;
+    width: 100%;
+}
+
+.menu__card-card{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    width: 100%;
+}
+.menu__card-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 378px;
+     width: 100%;
+}
+.menu__box-title{
+    display: inline-block;
+    padding:8px 0 12px;
+   font-size: 18px;
+   line-height: 20px;
+   color: var(--title-secondary-color);
+}
+.menu__box-txt{
+   font-size: 15px; 
+   color: var(--primary-color);
+   line-height: 20px;
+}
+
+.menu__box2-txt{
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--txt-primary-color);
+    max-width: 351px;
+    
+}
+
+.menu__card-box3{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.select__numb{
+    font-size: 16px;
+    color: var( --txt-secondary-color);
+    line-height:27px ;
+    border:1px solid rgba(221, 221, 221, 1) ;
+    border-radius:6px ;
+    padding: 9px 26px;
+    
+}
+
+.btn__card{
+    font-size: 16px;
+    color: var( --txt-secondary-color);
+    line-height:27px ;
+    border:1px solid rgba(221, 221, 221, 1) ;
+    border-radius:6px ;
+    padding: 9px 11px;
+    transition: 0.4s;
+}
+
+.btn__card:hover{
+    background: var( --primary-color);
+}
+.menulast__btn{
+    width: 100%;
+    display: flex;
+    align-self: center;
+}

@@ -1,29 +1,23 @@
-.fresh{
-    position: relative;
-  }
-  
-  .fresh__imgbg{
-      position: absolute;
-      z-index: -1;
-      width: 100%;
-      height: 847px;
-      object-position: center;
-  }
+.orders{
+    background: #fff;
+}
 
-.fresh > .container{
-    padding: 140px 0;
+.orders > .container{
+    padding: 120px 0;
     display: grid;
     grid-template-columns:repeat(auto-fit,minmax(600px, 1fr)) ;
 }
 
-.fresh__box{
+.orders__box2{
     display: flex;
     flex-direction: column;
     gap: 29px;
     padding: 151px 0 136px;
 }
+
+
 .fresh__box-title{
-    max-width: 374px;
+    max-width: 529px;
 }
 .fresh__box-txt{
     max-width: 578px;

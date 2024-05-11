@@ -1,8 +1,6 @@
-.fresh{
-    position: relative;
-  }
-  
-  .fresh__imgbg{
+
+
+  .store__imgbg{
       position: absolute;
       z-index: -1;
       width: 100%;
@@ -10,25 +8,29 @@
       object-position: center;
   }
 
-.fresh > .container{
-    padding: 140px 0;
+.store > .container{
+    padding: 100px 0;
     display: grid;
     grid-template-columns:repeat(auto-fit,minmax(600px, 1fr)) ;
+    position: relative;
 }
 
-.fresh__box{
+.store__box{
     display: flex;
     flex-direction: column;
     gap: 29px;
     padding: 151px 0 136px;
+    width: 100%;
 }
-.fresh__box-title{
-    max-width: 374px;
+.store__box-title{
+    max-width: 578px;
+    line-height: 55px;
+    letter-spacing: 1.65px;
 }
-.fresh__box-txt{
+.store__box-txt{
     max-width: 578px;
     line-height: 27px;
 }
-.fresh__btn{
+.store__btn{
     padding-top: 18px;
 }

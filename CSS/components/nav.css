@@ -1,15 +1,14 @@
 .nav{
-    /* position: fixed; */
+    position: sticky;
     z-index: 101;
     width: 100%;
-    background: #fff;
+    
+    
 }
-
-
 .nav > .container{
     display: flex;
     justify-content: space-between;
-    padding: 22px 0;
+    padding: 22px 15px;
     align-items: center;
    
 }
@@ -51,6 +50,11 @@
     background: var(--primary-color);
     padding: 19px 17px;
     border-radius: 4px;
+    transition: 0.4s;
+}
+
+.nav__box-btn:hover{
+    transform: translateX(3px);
 }
 .nav__box-txt{
     position: absolute;

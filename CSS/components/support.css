@@ -1,21 +1,23 @@
-
+.support__box{
+    width: 100%;
+}
 .support__box2{
-    position: relative;
+   
     display: flex;
     align-items: center;
   }
   
   .support__bgimg{
-      position: absolute;
-      z-index: -1;
-      object-position: center;
+    position: absolute;
+    z-index: -1;
   }
 
-.support > .container{
-    padding: 43px 0;
+.support{
+    padding: 43px 5px;
     display: grid;
     grid-template-columns:repeat(auto-fit,minmax(600px, 1fr)) ;
     gap: 22px;
+    position: relative;
 }
 
 .support__box3{

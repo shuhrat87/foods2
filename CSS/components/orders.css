@@ -3,7 +3,7 @@
 }
 
 .orders > .container{
-    padding: 120px 0;
+    padding: 120px 15px;
     display: grid;
     grid-template-columns:repeat(auto-fit,minmax(600px, 1fr)) ;
 }
@@ -12,7 +12,7 @@
     display: flex;
     flex-direction: column;
     gap: 29px;
-    padding: 151px 0 136px;
+    padding: 151px 15px 136px;
 }
 
 

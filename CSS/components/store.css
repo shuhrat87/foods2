@@ -14,8 +14,14 @@
 
 .store > .container{
     padding: 100px 15px;
-    display: grid;
-    grid-template-columns:repeat(auto-fit,minmax(600px, 1fr)) ;
+   display: flex;
+   gap: 70px;
+   
+   @media(width < 1024px){
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 50px 15px;
+   }
 }
 
 .store__box{
@@ -24,10 +30,17 @@
     gap: 29px;
     padding: 151px 15px 136px;
     width: 100%;
+    
+    @media(width < 1024px){
+        padding: 50px 15px;
+       }
+}
+.store__box2{
+    width: 100%;
 }
 .store__box-title{
     max-width: 578px;
-    line-height: 55px;
+    line-height:clamp(25px,5vw,55px) ;
     letter-spacing: 1.65px;
 }
 .store__box-txt{

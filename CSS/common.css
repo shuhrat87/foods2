@@ -30,14 +30,15 @@ button,input,textarea{
     padding: 0 15px;
 }
 .btn{
-    font-size: 17px;
+    font-size:clamp(14px,5vw,17px);
     font-weight: 400;
     color: var( --txt-secondary-color);
-    padding: 20px 35px;
+    padding: clamp(12px,5vw,20px) ;
     border: 1px solid rgba(221, 221, 221, 1) ;
     border-radius: 6px;
     max-width: fit-content;
    transition: 0.4s;
+   
 }
 
 .btn:hover{
@@ -46,9 +47,9 @@ button,input,textarea{
 }
 
 .title{
-   font-size: 50px; 
-   color: var(  --primary-color);
-   line-height: 55px;
+   font-size:clamp(25px,5vw,50px) ; 
+   color: var( --primary-color);
+   line-height:clamp(30px,5vw,55px);
 }
 .text{
     font-size: 18px;

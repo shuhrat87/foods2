@@ -11,6 +11,11 @@
     display: grid;
     grid-template-columns:repeat(auto-fit,minmax(333.33px, 1fr)) ;
     padding-top: 66px;
+    
+    @media(width < 576px){
+        grid-template-columns:repeat(auto-fit,minmax(255px, 1fr)) ;
+    }
+    
 }
 .works__card{
     display: flex;

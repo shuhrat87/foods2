@@ -8,7 +8,7 @@
 .nav > .container{
     display: flex;
     justify-content: space-between;
-    padding: 22px 15px;
+    padding: 20px 15px;
     align-items: center;
    
 }
@@ -35,6 +35,7 @@
     
     @media(width < 768px){
         font-size:22px ;
+        padding: 10px;
     }
 }
 .nav__link:hover{
@@ -115,7 +116,7 @@
     @media(width < 768px){
         position: absolute;
         width: 100%;
-        height: calc(100dvh - 81px);
+        height: calc(100dvh - 115px);
         background:var( --primary-color);
         z-index: 10;
         top: 81px;

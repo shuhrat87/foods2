@@ -4,15 +4,27 @@
 
 .orders > .container{
     padding: 120px 15px;
-    display: grid;
-    grid-template-columns:repeat(auto-fit,minmax(600px, 1fr)) ;
+    display: flex;
+    gap: 44px;
+    
+    @media(width < 1024px){
+        flex-wrap: wrap;
+        padding: 50px 15px;
+       }
 }
-
+.orders__box{
+    width: 100%;
+}
 .orders__box2{
     display: flex;
     flex-direction: column;
     gap: 29px;
     padding: 151px 15px 136px;
+    width: 100%;
+    
+    @media(width < 1024px){
+        padding: 50px 15px;
+       }
 }
 
 

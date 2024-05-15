@@ -1,6 +1,6 @@
 .fresh{
     position: relative;
-    height: 840px;
+    min-height: 840px;
   }
   
   .fresh__imgbg{
@@ -15,15 +15,30 @@
 
 .fresh > .container{
     padding: 80px 15px;
-    display: grid;
-    grid-template-columns:repeat(auto-fit,minmax(600px, 1fr)) ;
+   display: flex;
+   gap: 72px;
+   
+   @media(width < 1024px){
+    flex-wrap: wrap;
+    padding: 40px 15px;
+   }
+   
 }
 
 .fresh__box{
     display: flex;
     flex-direction: column;
+    width: 100%;
     gap: 29px;
     padding: 151px 15px 136px;
+    
+    @media(width < 1024px){
+        padding: 40px 15px;
+       }
+}
+
+.fresh__box2{
+    width: 100%;
 }
 .fresh__box-title{
     max-width: 374px;

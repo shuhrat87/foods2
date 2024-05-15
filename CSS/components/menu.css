@@ -16,11 +16,15 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    
+    @media(width < 1024px){
+        padding: 50px 15px;
+       }
 }
 
 .menu__box{
     display: flex;
-    gap: 26px;
+    gap:clamp(10px,5vw,26px) ;
     flex-direction: column;
     width: 100%;
     align-items: center;
@@ -60,6 +64,14 @@
     gap: 20px;
     width: 100%;
     padding: 39px 10px 65px;
+    
+    @media (width < 768px) {
+        grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    }
+    
+    @media (width < 380px) {
+        grid-template-columns: repeat(auto-fit,minmax(255px,1fr));
+    }
 }
 
 
@@ -68,12 +80,20 @@
     display: flex;
     align-items: center;
     gap: 30px;
-    padding: 27px 27px 26px;
+    padding:clamp(27px ,5vw,11px) ;
     border: 1px solid rgba(53, 184, 190, 0.15);
     border-radius:6px ;
     width: 100%;
+    
+    @media (max-width: 768px) {
+        flex-wrap: wrap;
+    }
 }
-
+.menu__card img{
+    @media (max-width: 768px) {
+       width: 100%;
+    }
+}
 .menu__card-card{
     display: flex;
     flex-direction: column;
@@ -90,19 +110,19 @@
 .menu__box-title{
     display: inline-block;
     padding:8px 0 12px;
-   font-size: 18px;
+   font-size:clamp(15px,5vw,18px);
    line-height: 20px;
-   color: var(--title-secondary-color);
+   color: var(--primary-color);
 }
 .menu__box-txt{
    font-size: 15px; 
-   color: var(--primary-color);
+   color: var(--title-secondary-color);
    line-height: 20px;
 }
 
 .menu__box2-txt{
-    font-size: 16px;
-    line-height: 24px;
+    font-size: clamp(13px,5vw,16px);
+    line-height: clamp(16px,5vw,24px);
     color: var(--txt-primary-color);
     max-width: 351px;
     
@@ -117,7 +137,7 @@
 .select__numb{
     font-size: 16px;
     color: var( --txt-secondary-color);
-    line-height:27px ;
+    line-height:clamp(18px,5vw,27px);
     border:1px solid rgba(221, 221, 221, 1) ;
     border-radius:6px ;
     padding: 9px 26px;
@@ -127,7 +147,7 @@
 .btn__card{
     font-size: 16px;
     color: var( --txt-secondary-color);
-    line-height:27px ;
+    line-height:clamp(18px,5vw,27px);
     border:1px solid rgba(221, 221, 221, 1) ;
     border-radius:6px ;
     padding: 9px 11px;
